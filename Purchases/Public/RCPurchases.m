@@ -635,6 +635,7 @@ static BOOL _automaticAppleSearchAdsAttributionCollection = NO;
 }
 
 - (void)updatePurchaserInfoCache {
+    RCDebugLog(@"Forcing an update on PurchaserInfo caches");
     [self updateCacheAndSendUpdatedPurchaserInfoIfChanged];
 }
 
@@ -695,11 +696,11 @@ static BOOL _automaticAppleSearchAdsAttributionCollection = NO;
 - (void)updateCachesWithCompletionBlock:(nullable RCReceivePurchaserInfoBlock)completion
 {
     [self.deviceCache resetCachesTimestamp];
-    [self updatePurchaserInfoCache:completion];
+    [self fetchAndCachePurchaserInfo:completion];
     [self updateOfferingsCache:nil];
 }
 
-- (void)updatePurchaserInfoCache:(nullable RCReceivePurchaserInfoBlock)completion
+- (void)fetchAndCachePurchaserInfo:(nullable RCReceivePurchaserInfoBlock)completion
 {
     NSString *appUserID = self.identityManager.currentAppUserID;
     [self.backend getSubscriberDataWithAppUserID:appUserID
@@ -730,7 +731,7 @@ static BOOL _automaticAppleSearchAdsAttributionCollection = NO;
     if (self.deviceCache.cachedOfferings) {
         RCDebugLog(@"Vending offerings from cache");
         CALL_IF_SET(completion, self.deviceCache.cachedOfferings, nil);
-        if ([self.deviceCache isCacheStale]) {
+        if (self.deviceCache.isOfferingsCacheStale) {
             RCDebugLog(@"Cache is stale, updating caches");
             [self updateCaches];
         }
