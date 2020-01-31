@@ -636,7 +636,7 @@ static BOOL _automaticAppleSearchAdsAttributionCollection = NO;
 
 - (void)invalidatePurchaserInfoCache {
     RCDebugLog(@"Purchaser info cache is invalidated");
-    [self.deviceCache clearOfferingsCacheTimestamp];
+    [self.deviceCache clearCachesTimestamp];
 }
 
 #pragma mark - Private Methods
