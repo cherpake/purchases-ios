@@ -748,7 +748,7 @@ static BOOL _automaticAppleSearchAdsAttributionCollection = NO;
                                     if (error != nil) {
                                         RCLog(@"Error fetching offerings - %@", error);
                                         CALL_AND_DISPATCH_IF_SET(completion, nil, error);
-                                        [self.deviceCache invalidate]
+                                        [self.deviceCache clearOfferingsCacheTimestamp];
                                         return;
                                     }
 
