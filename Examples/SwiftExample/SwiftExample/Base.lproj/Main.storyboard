@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -83,6 +83,19 @@
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZJ-Ux-vtK" userLabel="Invalidate Purchaser Info Cache Button">
+                                <rect key="frame" x="126.5" y="509" width="122" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NAv-rN-ETz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Invalidate Cache">
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="invalidatePurchaserInfoCacheButton:" destination="FSX-kG-Sn3" eventType="touchUpInside" id="VIn-SR-VyW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -93,6 +106,7 @@
                             <constraint firstItem="bk5-oP-cnj" firstAttribute="bottom" secondItem="9qy-qw-Nye" secondAttribute="bottom" constant="44" id="DcX-mK-KGK"/>
                             <constraint firstItem="y2G-Cj-lS8" firstAttribute="leading" secondItem="bk5-oP-cnj" secondAttribute="leading" constant="30" id="HNE-3s-kB7"/>
                             <constraint firstItem="9qy-qw-Nye" firstAttribute="centerX" secondItem="acM-tE-wUU" secondAttribute="centerX" id="JP3-ab-DxK"/>
+                            <constraint firstItem="sDn-b9-lxa" firstAttribute="top" secondItem="9ZJ-Ux-vtK" secondAttribute="bottom" constant="12" id="K3L-VK-QZw"/>
                             <constraint firstItem="sDn-b9-lxa" firstAttribute="centerX" secondItem="acM-tE-wUU" secondAttribute="centerX" id="KsF-ZW-9bA"/>
                             <constraint firstItem="vYn-Nj-Fjz" firstAttribute="top" secondItem="y2G-Cj-lS8" secondAttribute="bottom" constant="12" id="LS1-Hh-fNC"/>
                             <constraint firstItem="V23-Ro-q3c" firstAttribute="leading" secondItem="bk5-oP-cnj" secondAttribute="leading" constant="20" id="QSD-gU-iOz"/>
@@ -100,6 +114,7 @@
                             <constraint firstItem="bk5-oP-cnj" firstAttribute="trailing" secondItem="vYn-Nj-Fjz" secondAttribute="trailing" constant="30" id="ah2-ZF-FbO"/>
                             <constraint firstItem="bk5-oP-cnj" firstAttribute="trailing" secondItem="V23-Ro-q3c" secondAttribute="trailing" constant="20" id="jyt-2I-jNT"/>
                             <constraint firstItem="V23-Ro-q3c" firstAttribute="top" secondItem="bk5-oP-cnj" secondAttribute="top" constant="20" id="nX5-Rj-JJB"/>
+                            <constraint firstItem="9ZJ-Ux-vtK" firstAttribute="centerX" secondItem="bk5-oP-cnj" secondAttribute="centerX" id="waa-cb-VDy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bk5-oP-cnj"/>
                     </view>
@@ -107,6 +122,7 @@
                         <outlet property="catContentLabel" destination="V23-Ro-q3c" id="bv3-e5-pdf"/>
                         <outlet property="expirationDateLabel" destination="vYn-Nj-Fjz" id="hGU-pB-Sj8"/>
                         <outlet property="goPremiumButton" destination="sDn-b9-lxa" id="k3u-8k-SOZ"/>
+                        <outlet property="invalidatePurchaserInfoCacheButton" destination="9ZJ-Ux-vtK" id="obt-dq-KNy"/>
                         <outlet property="purchaseDateLabel" destination="y2G-Cj-lS8" id="hpN-kX-qUx"/>
                         <outlet property="restorePurchasesButton" destination="9qy-qw-Nye" id="fnO-e0-45e"/>
                     </connections>

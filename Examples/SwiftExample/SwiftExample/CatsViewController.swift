@@ -16,6 +16,7 @@ class CatsViewController: UIViewController {
     @IBOutlet weak var catContentLabel: UILabel!
     @IBOutlet weak var expirationDateLabel: UILabel!
     @IBOutlet weak var purchaseDateLabel: UILabel!
+    @IBOutlet weak var invalidatePurchaserInfoCacheButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,6 +63,10 @@ class CatsViewController: UIViewController {
     
     @objc func goPremiumButtonTapped() {
         navigationController?.popViewController(animated: true)
+    }
+        
+    @IBAction func invalidatePurchaserInfoCacheButton(_ sender: Any) {
+        Purchases.shared.invalidatePurchaserInfoCache()
     }
     
     @objc func restorePurchasesButtonTapped() {
