@@ -7,6 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		288B9C2D23EBCD290059BA10 /* PurchasesTV.h in Headers */ = {isa = PBXBuildFile; fileRef = 288B9C2B23EBCD290059BA10 /* PurchasesTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C3123EBCD900059BA10 /* RCPurchases+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A60EA81F82993E00D2FAE8 /* RCPurchases+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C3223EBCD970059BA10 /* RCIntroEligibility+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 35395CB321B9EB1000286D13 /* RCIntroEligibility+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C3323EBCD9C0059BA10 /* RCPurchaserInfo+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 352C36BE1F9D372D00A15783 /* RCPurchaserInfo+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C3423EBCDA30059BA10 /* RCOffering+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 35CE750020C3932900CE09D8 /* RCOffering+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C3523EBCDA80059BA10 /* RCOfferings+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A3F73223172D9900559FF9 /* RCOfferings+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C3623EBCDAE0059BA10 /* RCPackage+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6FB66AA75A6EA23ACC0A9E /* RCPackage+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C3723EBCDB30059BA10 /* RCHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 35262A2A1F7D783F00C04F2C /* RCHTTPClient.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C3823EBCDB90059BA10 /* RCHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 35262A2B1F7D783F00C04F2C /* RCHTTPClient.m */; };
+		288B9C3923EBCDBD0059BA10 /* RCUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 350FBDE11F7EE9020065833D /* RCUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C3A23EBCDC10059BA10 /* RCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FBDDF1F7EE8F20065833D /* RCUtils.m */; };
+		288B9C3B23EBCDC40059BA10 /* RCStoreKitRequestFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 350FBDEB1F7EFB950065833D /* RCStoreKitRequestFetcher.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C3C23EBCDC90059BA10 /* RCStoreKitRequestFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FBDEC1F7EFB950065833D /* RCStoreKitRequestFetcher.m */; };
+		288B9C3D23EBCDCC0059BA10 /* RCStoreKitWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 350FBDF11F7FFD340065833D /* RCStoreKitWrapper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C3E23EBCDD10059BA10 /* RCStoreKitWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FBDF21F7FFD340065833D /* RCStoreKitWrapper.m */; };
+		288B9C3F23EBCDD80059BA10 /* RCBackend.h in Headers */ = {isa = PBXBuildFile; fileRef = 351F4FA91F80190700F245F4 /* RCBackend.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C4023EBCDDD0059BA10 /* RCBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = 351F4FAA1F80190700F245F4 /* RCBackend.m */; };
+		288B9C4123EBCDE10059BA10 /* NSLocale+RCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 359A0E9F2003C8CD002D8C7F /* NSLocale+RCExtensions.h */; };
+		288B9C4223EBCDE50059BA10 /* NSLocale+RCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A0EA02003C8CD002D8C7F /* NSLocale+RCExtensions.m */; };
+		288B9C4323EBCDE70059BA10 /* RCCrossPlatformSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C98D9420B7306A006DCBB5 /* RCCrossPlatformSupport.h */; };
+		288B9C4423EBCDF00059BA10 /* RCReceiptFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 353AB5E82230A239003754E6 /* RCReceiptFetcher.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C4523EBCDF50059BA10 /* RCReceiptFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AB5F82230AAE2003754E6 /* RCReceiptFetcher.m */; };
+		288B9C4623EBCDF80059BA10 /* RCAttributionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 35846AF82267FDD600CC9E56 /* RCAttributionFetcher.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C4723EBCDFC0059BA10 /* RCAttributionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 35846AFA2267FE7F00CC9E56 /* RCAttributionFetcher.m */; };
+		288B9C4823EBCE010059BA10 /* RCAttributionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 350A1B86226F937F00CCA10F /* RCAttributionData.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C4923EBCE190059BA10 /* RCAttributionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 350A1B88226F93C800CCA10F /* RCAttributionData.m */; };
+		288B9C4A23EBCE1D0059BA10 /* RCPromotionalOffer.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6FBD2FBB7BD43897C26768 /* RCPromotionalOffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C4B23EBCE220059BA10 /* RCPromotionalOffer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6FB839CFA4B4A3A3687D61 /* RCPromotionalOffer.m */; };
+		288B9C4C23EBCE250059BA10 /* RCPromotionalOffer+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 35846AFE226A554300CC9E56 /* RCPromotionalOffer+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C4D23EBCE2A0059BA10 /* RCOfferingsFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A3F7342318772500559FF9 /* RCOfferingsFactory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C4E23EBCE320059BA10 /* RCOfferingsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 351280372318AFB400BD2163 /* RCOfferingsFactory.m */; };
+		288B9C4F23EBCE350059BA10 /* RCEntitlementInfo+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B54E4F22EF7F3A005918B1 /* RCEntitlementInfo+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C5023EBCE3A0059BA10 /* RCEntitlementInfos+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B54E5122EF88CE005918B1 /* RCEntitlementInfos+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C5123EBCE3F0059BA10 /* RCDeviceCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B1633E2342E67C003371A3 /* RCDeviceCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C5223EBCE440059BA10 /* RCDeviceCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B163402342E692003371A3 /* RCDeviceCache.m */; };
+		288B9C5323EBCE470059BA10 /* RCIdentityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 35095A6A2351461E00ADF0B2 /* RCIdentityManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		288B9C5423EBCE4C0059BA10 /* RCIdentityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35095A6B2351461E00ADF0B2 /* RCIdentityManager.m */; };
+		288B9C5523EBCE8A0059BA10 /* RCPurchasesErrorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 353AB5E5222F633D003754E6 /* RCPurchasesErrorUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C5623EBCE8F0059BA10 /* RCPurchasesErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 352E88422229B1A60046A10A /* RCPurchasesErrorUtils.m */; };
+		288B9C5723EBCE920059BA10 /* RCPurchasesErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 353AB5E3222F624E003754E6 /* RCPurchasesErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C5823EBCE9A0059BA10 /* Purchases.h in Headers */ = {isa = PBXBuildFile; fileRef = 35262A011F7C4B9100C04F2C /* Purchases.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C5923EBCEAA0059BA10 /* RCPurchases.h in Headers */ = {isa = PBXBuildFile; fileRef = 350FBDE71F7EEF070065833D /* RCPurchases.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C5A23EBCEAA0059BA10 /* RCPurchaserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 351F4FAD1F803D0700F245F4 /* RCPurchaserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C5B23EBCEAA0059BA10 /* RCIntroEligibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D3AB412030B4C600DE42C5 /* RCIntroEligibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C5C23EBCEAA0059BA10 /* RCOfferings.h in Headers */ = {isa = PBXBuildFile; fileRef = 354D50DD22E7D014009B870C /* RCOfferings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C5D23EBCEAA0059BA10 /* RCOffering.h in Headers */ = {isa = PBXBuildFile; fileRef = 35CE74F920C38A7100CE09D8 /* RCOffering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C5E23EBCEAA0059BA10 /* RCPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3585D6A122E680E30079E2C5 /* RCPackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C5F23EBCEAA0059BA10 /* RCEntitlementInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B54E4722EA6F4E005918B1 /* RCEntitlementInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C6023EBCEAA0059BA10 /* RCEntitlementInfos.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B54E4922EA6FBD005918B1 /* RCEntitlementInfos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		288B9C6123EBCEB80059BA10 /* RCPurchases.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FBDE81F7EEF070065833D /* RCPurchases.m */; };
+		288B9C6223EBCEB80059BA10 /* RCPurchaserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 351F4FAE1F803D0700F245F4 /* RCPurchaserInfo.m */; };
+		288B9C6323EBCEB80059BA10 /* RCIntroEligibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D3AB422030B4C600DE42C5 /* RCIntroEligibility.m */; };
+		288B9C6423EBCEB80059BA10 /* RCOfferings.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D50DE22E7D014009B870C /* RCOfferings.m */; };
+		288B9C6523EBCEB80059BA10 /* RCOffering.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CE74FA20C38A7100CE09D8 /* RCOffering.m */; };
+		288B9C6623EBCEB80059BA10 /* RCPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3585D6A222E680E30079E2C5 /* RCPackage.m */; };
+		288B9C6723EBCEB80059BA10 /* RCEntitlementInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B54E4522EA6F11005918B1 /* RCEntitlementInfo.m */; };
+		288B9C6823EBCEB80059BA10 /* RCEntitlementInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B54E4B22EA6FD3005918B1 /* RCEntitlementInfos.m */; };
 		35095A6C2351461E00ADF0B2 /* RCIdentityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 35095A6A2351461E00ADF0B2 /* RCIdentityManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		35095A6D2351461E00ADF0B2 /* RCIdentityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35095A6B2351461E00ADF0B2 /* RCIdentityManager.m */; };
 		350A1B87226F937F00CCA10F /* RCAttributionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 350A1B86226F937F00CCA10F /* RCAttributionData.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -106,6 +163,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		288B9C2323EBCCFC0059BA10 /* Purchases copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Purchases copy-Info.plist"; path = "/Users/cherpake/Code/github/purchases-ios/Purchases copy-Info.plist"; sourceTree = "<absolute>"; };
+		288B9C2923EBCD290059BA10 /* PurchasesTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PurchasesTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		288B9C2B23EBCD290059BA10 /* PurchasesTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchasesTV.h; sourceTree = "<group>"; };
+		288B9C2C23EBCD290059BA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35095A6A2351461E00ADF0B2 /* RCIdentityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCIdentityManager.h; sourceTree = "<group>"; };
 		35095A6B2351461E00ADF0B2 /* RCIdentityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCIdentityManager.m; sourceTree = "<group>"; };
 		350A1B84226E3E8700CCA10F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -185,6 +246,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		288B9C2623EBCD290059BA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		352629FA1F7C4B9100C04F2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,6 +273,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		288B9C2A23EBCD290059BA10 /* PurchasesTV */ = {
+			isa = PBXGroup;
+			children = (
+				288B9C2B23EBCD290059BA10 /* PurchasesTV.h */,
+				288B9C2C23EBCD290059BA10 /* Info.plist */,
+			);
+			path = PurchasesTV;
+			sourceTree = "<group>";
+		};
 		350FBDD61F7DF1640065833D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,8 +323,10 @@
 			children = (
 				35262A001F7C4B9100C04F2C /* Purchases */,
 				35262A1F1F7D77E600C04F2C /* PurchasesTests */,
+				288B9C2A23EBCD290059BA10 /* PurchasesTV */,
 				352629FF1F7C4B9100C04F2C /* Products */,
 				3530C18722653E8F00D6DF52 /* Frameworks */,
+				288B9C2323EBCCFC0059BA10 /* Purchases copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,6 +335,7 @@
 			children = (
 				352629FE1F7C4B9100C04F2C /* Purchases.framework */,
 				35262A1E1F7D77E600C04F2C /* PurchasesTests.xctest */,
+				288B9C2923EBCD290059BA10 /* PurchasesTV.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -338,6 +418,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		288B9C2423EBCD290059BA10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288B9C5A23EBCEAA0059BA10 /* RCPurchaserInfo.h in Headers */,
+				288B9C3723EBCDB30059BA10 /* RCHTTPClient.h in Headers */,
+				288B9C4123EBCDE10059BA10 /* NSLocale+RCExtensions.h in Headers */,
+				288B9C5123EBCE3F0059BA10 /* RCDeviceCache.h in Headers */,
+				288B9C5323EBCE470059BA10 /* RCIdentityManager.h in Headers */,
+				288B9C3523EBCDA80059BA10 /* RCOfferings+Protected.h in Headers */,
+				288B9C4C23EBCE250059BA10 /* RCPromotionalOffer+Protected.h in Headers */,
+				288B9C5D23EBCEAA0059BA10 /* RCOffering.h in Headers */,
+				288B9C5E23EBCEAA0059BA10 /* RCPackage.h in Headers */,
+				288B9C3323EBCD9C0059BA10 /* RCPurchaserInfo+Protected.h in Headers */,
+				288B9C5B23EBCEAA0059BA10 /* RCIntroEligibility.h in Headers */,
+				288B9C3423EBCDA30059BA10 /* RCOffering+Protected.h in Headers */,
+				288B9C3623EBCDAE0059BA10 /* RCPackage+Protected.h in Headers */,
+				288B9C5523EBCE8A0059BA10 /* RCPurchasesErrorUtils.h in Headers */,
+				288B9C5823EBCE9A0059BA10 /* Purchases.h in Headers */,
+				288B9C3223EBCD970059BA10 /* RCIntroEligibility+Protected.h in Headers */,
+				288B9C4623EBCDF80059BA10 /* RCAttributionFetcher.h in Headers */,
+				288B9C4323EBCDE70059BA10 /* RCCrossPlatformSupport.h in Headers */,
+				288B9C4D23EBCE2A0059BA10 /* RCOfferingsFactory.h in Headers */,
+				288B9C4A23EBCE1D0059BA10 /* RCPromotionalOffer.h in Headers */,
+				288B9C5C23EBCEAA0059BA10 /* RCOfferings.h in Headers */,
+				288B9C5723EBCE920059BA10 /* RCPurchasesErrors.h in Headers */,
+				288B9C3B23EBCDC40059BA10 /* RCStoreKitRequestFetcher.h in Headers */,
+				288B9C5F23EBCEAA0059BA10 /* RCEntitlementInfo.h in Headers */,
+				288B9C4823EBCE010059BA10 /* RCAttributionData.h in Headers */,
+				288B9C3923EBCDBD0059BA10 /* RCUtils.h in Headers */,
+				288B9C2D23EBCD290059BA10 /* PurchasesTV.h in Headers */,
+				288B9C5023EBCE3A0059BA10 /* RCEntitlementInfos+Protected.h in Headers */,
+				288B9C6023EBCEAA0059BA10 /* RCEntitlementInfos.h in Headers */,
+				288B9C5923EBCEAA0059BA10 /* RCPurchases.h in Headers */,
+				288B9C3D23EBCDCC0059BA10 /* RCStoreKitWrapper.h in Headers */,
+				288B9C3F23EBCDD80059BA10 /* RCBackend.h in Headers */,
+				288B9C4F23EBCE350059BA10 /* RCEntitlementInfo+Protected.h in Headers */,
+				288B9C3123EBCD900059BA10 /* RCPurchases+Protected.h in Headers */,
+				288B9C4423EBCDF00059BA10 /* RCReceiptFetcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		352629FB1F7C4B9100C04F2C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +504,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		288B9C2823EBCD290059BA10 /* PurchasesTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288B9C2E23EBCD290059BA10 /* Build configuration list for PBXNativeTarget "PurchasesTV" */;
+			buildPhases = (
+				288B9C2423EBCD290059BA10 /* Headers */,
+				288B9C2523EBCD290059BA10 /* Sources */,
+				288B9C2623EBCD290059BA10 /* Frameworks */,
+				288B9C2723EBCD290059BA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PurchasesTV;
+			productName = PurchasesTV;
+			productReference = 288B9C2923EBCD290059BA10 /* PurchasesTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		352629FD1F7C4B9100C04F2C /* Purchases */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35262A121F7C4B9100C04F2C /* Build configuration list for PBXNativeTarget "Purchases" */;
@@ -430,6 +570,10 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Purchases;
 				TargetAttributes = {
+					288B9C2823EBCD290059BA10 = {
+						CreatedOnToolsVersion = 11.3.1;
+						ProvisioningStyle = Automatic;
+					};
 					352629FD1F7C4B9100C04F2C = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -456,11 +600,19 @@
 			targets = (
 				352629FD1F7C4B9100C04F2C /* Purchases */,
 				35262A1D1F7D77E600C04F2C /* PurchasesTests */,
+				288B9C2823EBCD290059BA10 /* PurchasesTV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		288B9C2723EBCD290059BA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		352629FC1F7C4B9100C04F2C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,6 +649,35 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		288B9C2523EBCD290059BA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288B9C4523EBCDF50059BA10 /* RCReceiptFetcher.m in Sources */,
+				288B9C3A23EBCDC10059BA10 /* RCUtils.m in Sources */,
+				288B9C5623EBCE8F0059BA10 /* RCPurchasesErrorUtils.m in Sources */,
+				288B9C6123EBCEB80059BA10 /* RCPurchases.m in Sources */,
+				288B9C6723EBCEB80059BA10 /* RCEntitlementInfo.m in Sources */,
+				288B9C4B23EBCE220059BA10 /* RCPromotionalOffer.m in Sources */,
+				288B9C6823EBCEB80059BA10 /* RCEntitlementInfos.m in Sources */,
+				288B9C5223EBCE440059BA10 /* RCDeviceCache.m in Sources */,
+				288B9C6523EBCEB80059BA10 /* RCOffering.m in Sources */,
+				288B9C3E23EBCDD10059BA10 /* RCStoreKitWrapper.m in Sources */,
+				288B9C5423EBCE4C0059BA10 /* RCIdentityManager.m in Sources */,
+				288B9C4E23EBCE320059BA10 /* RCOfferingsFactory.m in Sources */,
+				288B9C3823EBCDB90059BA10 /* RCHTTPClient.m in Sources */,
+				288B9C6623EBCEB80059BA10 /* RCPackage.m in Sources */,
+				288B9C6223EBCEB80059BA10 /* RCPurchaserInfo.m in Sources */,
+				288B9C4723EBCDFC0059BA10 /* RCAttributionFetcher.m in Sources */,
+				288B9C4923EBCE190059BA10 /* RCAttributionData.m in Sources */,
+				288B9C4223EBCDE50059BA10 /* NSLocale+RCExtensions.m in Sources */,
+				288B9C4023EBCDDD0059BA10 /* RCBackend.m in Sources */,
+				288B9C3C23EBCDC90059BA10 /* RCStoreKitRequestFetcher.m in Sources */,
+				288B9C6423EBCEB80059BA10 /* RCOfferings.m in Sources */,
+				288B9C6323EBCEB80059BA10 /* RCIntroEligibility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		352629F91F7C4B9100C04F2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -556,6 +737,53 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		288B9C2F23EBCD290059BA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MCKT7VHXP5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PurchasesTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cherpake.PurchasesTV;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		288B9C3023EBCD290059BA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MCKT7VHXP5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PurchasesTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cherpake.PurchasesTV;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
 		35262A101F7C4B9100C04F2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -771,6 +999,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		288B9C2E23EBCD290059BA10 /* Build configuration list for PBXNativeTarget "PurchasesTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288B9C2F23EBCD290059BA10 /* Debug */,
+				288B9C3023EBCD290059BA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		352629F81F7C4B9100C04F2C /* Build configuration list for PBXProject "Purchases" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
